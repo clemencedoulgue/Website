@@ -196,3 +196,42 @@ a:hover {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
+
+#topimg {
+    width: 100%;
+}
+
+#bottomform {}
+
+#bottomform label {
+    display: block;
+}
+
+#bottomform input {
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    padding: 7px;
+}
+
+.pp {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.pp:active {
+    background-color: #6c48ce;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile img {
+        width: 100%;
+    }
+
+
+}
